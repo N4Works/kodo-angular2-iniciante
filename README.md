@@ -12,10 +12,12 @@ Para executar o projeto siga os seguintes passos:
 
 3. Execute ```$ npm i -g live-server typescript tsd``` para instalar o LiveServer, Typescript e Definições do Typescript globalmente
 
-4. Execute ```$ tsc```
+4. Execute ```$ tsd install``` para fazer a baixa dos tipos que o angular usa
 
-5. Execute em outro terminal ```$ live-server```
+5. Execute ```$ tsc``` para fazer a compilação de seus fontes de typescript para javascript
 
-6. Voilá, tudo rodando
+6. Execute em outro terminal ```$ live-server```
+
+7. Voilá, tudo rodando
 
 Para mais informações acesse o [post em nosso blog](http://n4works.com/blog/angular2-hello-world).
