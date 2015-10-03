@@ -10,7 +10,6 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "angular": "^1.4.5",
     "angular2": "^2.0.0-alpha.37",
     "reflect-metadata": "^0.1.0",
     "systemjs": "^0.18.0",
