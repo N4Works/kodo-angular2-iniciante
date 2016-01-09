@@ -3,8 +3,8 @@
     <head>
         <title>kodo-angular2-iniciante</title>
 
-        <!-- traceur eh usado como parte do polifyll de algumas especificacoes do ECMAScript 2015 e 2017 que o browser ainda nao implementa -->
-        <script src="node_modules/traceur/bin/traceur-runtime.js"></script>
+        <!-- Usa alguns polyfills providos para o angular -->
+        <script src="node_modules/angular2/bundles/angular2-polyfills.min.js"></script>
 
         <!--  systemjs carregador de modulo "universal" - funciona com modulos do ES2015, AMD, CommonJS -->
         <script src="node_modules/systemjs/dist/system.js"></script>
@@ -12,8 +12,11 @@
         <!-- Reflect eh usado como polyfill das anotacoes usadas pelo Angular2 -->
         <script src="node_modules/reflect-metadata/Reflect.js"></script>
 
+        <!-- Utiliza o RxJs para trabalhar com Reactive Programming -->
+        <script src="node_modules/rxjs/bundles/Rx.js"></script>
+
         <!-- Angular2.0.0-alpha35 -->
-        <script src="node_modules/angular2/bundles/angular2.js"></script>
+        <script src="node_modules/angular2/bundles/angular2.min.js"></script>
     </head>
     <body>
 

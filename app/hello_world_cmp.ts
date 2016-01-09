@@ -1,16 +1,9 @@
-/// <reference path="../typings/tsd.d.ts" />
-
 // Componente - responsável por amarrar as dependências de regra de negócio que ficarão em cada componente
-// View - responsável pela parte visual do componente
-import {Component, View} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 // Inicialização do componente - dando o nome do mesmo de 'hello-world'
 @Component({
-    selector: 'hello-world'
-})
-
-// Inicialização da View - dando um template à mesma
-@View({
+    selector: 'hello-world',
     template: `
         <h1>Hello world!</h1>
     `

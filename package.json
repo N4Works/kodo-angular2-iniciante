@@ -4,15 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "live-server": "^0.9.0",
+    "typescript": "^1.7.5"
+  },
   "dependencies": {
-    "angular2": "^2.0.0-alpha.37",
-    "reflect-metadata": "^0.1.0",
-    "systemjs": "^0.18.0",
-    "traceur": "0.0.91"
+    "angular2": "^2.0.0-beta.1",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.34.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.0",
+    "systemjs": "^0.18.17",
+    "zone.js": "^0.5.10"
   }
 }
